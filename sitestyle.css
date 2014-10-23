@@ -36,6 +36,7 @@ header nav a {
 	-webkit-box-sizing: content-box;
 	-moz-box-sizing: content-box;
 	box-sizing: content-box;
+	align-content: center;
 	text-align: center;
 	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
 	font-style: oblique;
@@ -162,7 +163,7 @@ footer {
 }
 .notOnDesktop {
 	/*element to be displayed only in mobile view and tabet view */
-	display: none;
+	display: block;
 }
 #mainContent #bannerImage img {
 	/* Actual banner image */
