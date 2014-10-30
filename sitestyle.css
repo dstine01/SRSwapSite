@@ -136,8 +136,16 @@ footer article h3  {
 }
 nav ul li {
 	list-style-type: none;
-	padding-top: 8px;
-	padding-bottom: 8px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	display: table-cell;
+	padding-right: 25px;
+	padding-left: 25px;
+	position: relative;
+	float: none;
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
 }
 nav ul {
 	padding-left: 0%;
@@ -145,13 +153,18 @@ nav ul {
 nav ul li a {
 	color: rgba(146,146,146,1.00);
 	text-decoration: none;
+	display: inherit;
+	float: none;
+	clear: none;
 }
 #footerbar {
 	/* Footer bar at the bottom of the page */
 	height: 18px;
 	clear: both;
 	background-color: rgba(208,207,207,1.00);
-	width: 80%;
+	width: 96%;
+	max-width: 96%;
+	min-width: 96%;
 }
 footer {
 	/* Container for footer artices */
@@ -238,7 +251,8 @@ footer {
 }
 #content footer article {
 	/*Each footer article */
-	width: 46%;
+	height: auto;
+	width: 96%;
 }
 #mainwrapper header {
 	/* Header */
@@ -297,3 +311,4 @@ footer {
 	width: 96%;
 }
 
+	
